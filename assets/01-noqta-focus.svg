@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="شعار نقطة - عدسة التركيز">
+  <defs>
+    <linearGradient id="sky1" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#0284C7"/>
+      <stop offset="1" stop-color="#67E8F9"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(55 55)">
+    <rect width="310" height="310" rx="82" fill="#0F172A"/>
+    <circle cx="142" cy="137" r="76" fill="none" stroke="url(#sky1)" stroke-width="24"/>
+    <path d="M198 193L252 247" fill="none" stroke="#38BDF8" stroke-width="26" stroke-linecap="round"/>
+    <circle cx="142" cy="137" r="25" fill="#FFFFFF"/>
+    <circle cx="142" cy="137" r="11" fill="#0EA5E9"/>
+    <circle cx="247" cy="68" r="13" fill="#67E8F9"/>
+  </g>
+  <g>
+    <text x="425" y="190" font-family="itf Qomra Arabic" font-size="164" font-weight="700" fill="#0F172A">نقطة</text>
+    <text x="432" y="285" font-family="DejaVu Sans" font-size="72" font-weight="700" letter-spacing="8" fill="#0EA5E9">NOQTA</text>
+    <text x="435" y="337" font-family="itf Qomra Arabic" font-size="34" font-weight="500" fill="#475569">حضورك يبدأ من نقطة</text>
+  </g>
+</svg>
