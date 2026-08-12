@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 150" width="100%" height="100%">
+  <defs>
+    <linearGradient id="grad-pro" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F2FE"/>
+      <stop offset="100%" stop-color="#4FACFE"/>
+    </linearGradient>
+    <linearGradient id="grad-dark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+    <filter id="glow-pro" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  
+  <!-- Background Badge -->
+  <rect x="5" y="5" width="490" height="140" rx="20" fill="url(#grad-dark)" stroke="#334155" stroke-width="2"/>
+  
+  <!-- Logo Symbol: Professional Pin & CV Spark -->
+  <g transform="translate(30, 25)">
+    <!-- Pin Circle -->
+    <circle cx="50" cy="40" r="32" fill="none" stroke="url(#grad-pro)" stroke-width="4" filter="url(#glow-pro)"/>
+    <!-- Glowing Center Dot -->
+    <circle cx="50" cy="40" r="14" fill="url(#grad-pro)"/>
+    <circle cx="50" cy="40" r="6" fill="#FFFFFF"/>
+    <!-- Target Lines / Personal Identity Ray -->
+    <path d="M 50 2 L 50 14 M 50 66 L 50 78 M 12 40 L 24 40 M 76 40 L 88 40" stroke="#00F2FE" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 50 75 L 50 95" stroke="url(#grad-pro)" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Typography Arabic & English -->
+  <text x="150" y="65" font-family="'Cairo', 'Tajawal', sans-serif" font-weight="900" font-size="34" fill="#FFFFFF">نقطة <tspan fill="#00F2FE">مهني</tspan></text>
+  <text x="150" y="95" font-family="'Inter', sans-serif" font-weight="700" font-size="16" fill="#94A3B8" letter-spacing="2">NOQTA PRO • CAREER &amp; PORTFOLIO</text>
+  <text x="150" y="120" font-family="'Cairo', sans-serif" font-weight="600" font-size="14" fill="#38BDF8">«نقطة انطلاقك... لحضور لا يُنسى»</text>
+</svg>

@@ -3,423 +3,316 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>مشروع نقطة (NOQTA) — دليل انطلاق محمود و روح محمود</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <meta name="description" content="مختبر قرار عملي لهوية وخدمات نقطة في السوق السوري: نقطة مهني ونقطة أعمال." />
+    <title>مختبر قرار نقطة — NOQTA Brand Lab</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <!-- Top Header -->
-    <header>
-      <div class="header-container">
-        <div class="brand-title">
-          <img src="assets/01-noqta-focus.svg" alt="NOQTA Logo" style="height: 38px; width: auto;" />
-          نقطة <span>NOQTA</span>
-        </div>
-        <div class="couple-tag">
-          💙 محمود & 💖 روح محمود
-        </div>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="master-brand" href="#decision" aria-label="العودة إلى القرار">
+          <img src="assets/noqta-master.svg" alt="شعار نقطة" />
+        </a>
+        <div class="header-note"><span class="status-dot" aria-hidden="true"></span>مختبر قرار واقعي للسوق السوري</div>
       </div>
     </header>
 
-    <!-- Navigation Tabs -->
-    <div class="nav-tabs">
-      <button type="button" class="tab-btn active" data-tab="logos-tab">
-        🎨 1. اختيار اللوغو المفضل
-      </button>
-      <button type="button" class="tab-btn" data-tab="timeline-tab">
-        🚀 2. مخطط الخط الزمني للتأسيس (Timeline)
-      </button>
-      <button type="button" class="tab-btn" data-tab="social-tab">
-        📱 3. خطة السوشيال ميديا والباقات
-      </button>
-      <button type="button" class="tab-btn" data-tab="posts-tab">
-        📝 4. بنك المحتوى والبوستات الكامل
-      </button>
-    </div>
-
-    <!-- Main Workspace -->
-    <main>
-      <!-- Welcome Intro -->
-      <div class="welcome-box">
-        <h1>مشروع <span>نقطة (NOQTA)</span> — <span class="highlight">محمود & روح محمود</span> 🌸✨</h1>
-        <p>
-          دليل عملي ومنظم يساعدنا في المقارنة واختيار الشعار الأنسب لمشروعنا، ومتابعة خطوات التأسيس من إنشاء الحسابات حتى نشر البوستات الأولى.
-        </p>
+    <nav class="tab-nav" aria-label="أقسام دراسة المشروع">
+      <div class="tab-nav-inner" role="tablist">
+        <button class="tab-btn active" role="tab" aria-selected="true" aria-controls="decision" data-tab="decision">01 — القرار</button>
+        <button class="tab-btn" role="tab" aria-selected="false" aria-controls="brands" data-tab="brands">02 — الشعارات والهويتان</button>
+        <button class="tab-btn" role="tab" aria-selected="false" aria-controls="compare" data-tab="compare">03 — المقارنة والاختبار</button>
+        <button class="tab-btn" role="tab" aria-selected="false" aria-controls="offers" data-tab="offers">04 — العروض والباقات</button>
+        <button class="tab-btn" role="tab" aria-selected="false" aria-controls="roadmap" data-tab="roadmap">05 — خطة 90 يوم</button>
+        <button class="tab-btn" role="tab" aria-selected="false" aria-controls="content" data-tab="content">06 — الميديا والمحتوى</button>
       </div>
+    </nav>
 
-      <!-- TAB 1: ALL LOGOS FOR MAHMOUD & ROUH MAHMOUD -->
-      <section id="logos-tab" class="tab-section active">
-        <h2 style="font-size: 1.5rem; color: #fff; margin-bottom: 0.5rem;">🎨 اختاروا الشعار الأفضل للمشروع</h2>
-        <p style="color: var(--text-muted); margin-bottom: 1.2rem;">تصفحا كافة خيارات اللوغو المتاحة واضغطا على أزرار التصويت لحفظ اختيار محمود واختيار روح محمود:</p>
-
-        <div class="logos-grid">
-          <!-- Logo 1 -->
-          <div class="logo-card" data-logo-id="logo-v1">
-            <div class="logo-img-box">
-              <img src="assets/nokta_logo_v1_1786436392761.png" alt="الشعار الطباعي المبسط" />
-            </div>
-            <h3>1. الشعار الطباعي المبسط (Minimalist Typography)</h3>
-            <p>خط عربي حديث وواضح مع اسم إنجليزي ونقطة ليمونية مشعة.</p>
-            <div class="picker-btns">
-              <button type="button" class="pick-btn mahmoud" data-person="mahmoud">💙 خيار محمود</button>
-              <button type="button" class="pick-btn rouh" data-person="rouh">💖 خيار روح محمود</button>
+    <main>
+      <section id="decision" class="tab-panel active" role="tabpanel">
+        <div class="hero">
+          <div class="hero-copy">
+            <span class="eyebrow">الجواب المختصر</span>
+            <h1>وسّع الرؤية، <span>وضيّق البداية.</span></h1>
+            <p class="hero-lead">لا تجعل «نقطة» محصورة بالـCV، ولا تطلقها كوكالة تصنع أي شيء لأي أحد. ابنِها كعلامة للحضور الرقمي الخفيف، وابدأ بخطّين واضحين تحت اسم واحد.</p>
+            <div class="hero-actions">
+              <button type="button" class="primary-action" data-go="compare">ابدأ اختبار 30 يوم</button>
+              <button type="button" class="secondary-action" data-go="brands">شاهد الهويتين</button>
             </div>
           </div>
+          <aside class="recommendation-card" aria-label="التوصية الحالية">
+            <span class="card-kicker">التوصية الحالية</span>
+            <strong>Master brand + خطّان متخصصان</strong>
+            <div class="recommendation-line pro-line"><span>NOQTA Pro</span><small>بوابة أسرع لبناء نماذج ودخل أولي</small></div>
+            <div class="recommendation-line biz-line"><span>NOQTA Business</span><small>فرصة أقوى للتكرار، لكن بيعها أصعب</small></div>
+            <p>ابدأ بنسبة جهد 70% لمهني و30% لاختبار قطاع تجاري واحد. غيّر النسبة بعد أرقام الشهر الأول، لا قبلها.</p>
+          </aside>
+        </div>
 
-          <!-- Logo 2 -->
-          <div class="logo-card" data-logo-id="logo-v2">
-            <div class="logo-img-box">
-              <img src="assets/nokta_logo_v2_1786436688865.png" alt="نظام الهوية الأيقونية" />
-            </div>
-            <h3>2. نظام الهوية الأيقونية الدائرية (Iconic Monogram)</h3>
-            <p>دمج حرف N الإنجليزي مع حرف ن العربي بطريقة هندسية عصرية.</p>
-            <div class="picker-btns">
-              <button type="button" class="pick-btn mahmoud" data-person="mahmoud">💙 خيار محمود</button>
-              <button type="button" class="pick-btn rouh" data-person="rouh">💖 خيار روح محمود</button>
+        <div class="section-heading">
+          <div><span class="eyebrow">لماذا هذا القرار؟</span><h2>العلامة واسعة، لكن رسالة البيع تبقى محددة</h2></div>
+          <p>المشكلة ليست في تقديم خدمتين؛ المشكلة في خلط جمهورين ووعدين مختلفين داخل الإعلان نفسه.</p>
+        </div>
+        <div class="logic-grid">
+          <article class="logic-card"><span class="logic-index">01</span><h3>مهني سهل الاختبار</h3><p>يمكن صنع 3 نماذج قوية بسرعة والوصول إلى خريجين ومستقلين، لكن السعر والتكرار عادةً محدودان، والـCV وحده خدمة سهلة التقليد.</p></article>
+          <article class="logic-card"><span class="logic-index">02</span><h3>أعمال أقوى على المدى الطويل</h3><p>الصفحة قد تتوسع إلى تحديثات واستضافة وصيانة وإحالات، لكن صاحب العمل يحتاج ديمو واضحاً وثقة ومتابعة أكثر قبل الشراء.</p></article>
+          <article class="logic-card"><span class="logic-index">03</span><h3>لا تبدأ بكل القطاعات</h3><p>اختر قطاعاً واحداً للاختبار: مطاعم صغيرة، عيادات، صالونات، أو خدمات منزلية. لكل قطاع مشكلة وCTA مختلفان.</p></article>
+        </div>
+
+        <div class="reality-panel">
+          <div class="reality-copy">
+            <span class="eyebrow light">واقع يجب أن يصمم المنتج حوله</span>
+            <h2>في سوريا، الخفة والثقة ليستا ميزتين إضافيتين.</h2>
+            <p>بيانات 2025 المتاحة تضع انتشار الإنترنت عند 35.8%، ومتوسط سرعة الإنترنت الثابت عند 3.40 Mbps. كما يشير البنك الدولي إلى ضعف الدخل وأزمة سيولة؛ لذلك لا تبنِ العرض على موقع ثقيل، دفع إلكتروني فقط، أو سعر غير قابل للتثبيت.</p>
+            <div class="source-links">
+              <a href="https://datareportal.com/reports/digital-2025-syria" target="_blank" rel="noreferrer">Digital 2025: Syria ↗</a>
+              <a href="https://www.worldbank.org/en/news/press-release/2025/07/07/new-world-bank-report-highlights-syria-s-economic-challenges-and-recovery-prospects-for-2025" target="_blank" rel="noreferrer">World Bank 2025 ↗</a>
+              <a href="https://syria.un.org/en/download/180806/291750" target="_blank" rel="noreferrer">UN Common Country Analysis ↗</a>
+              <a href="https://restaurant.sy/" target="_blank" rel="noreferrer">مثال منافس محلي ↗</a>
             </div>
           </div>
-
-          <!-- Logo 3 -->
-          <div class="logo-card" data-logo-id="logo-focus">
-            <div class="logo-img-box">
-              <img src="assets/nokta_focus_pin_logo_1786437643299.png" alt="شعار دبابيس التركيز" />
-            </div>
-            <h3>3. شعار نقطة التركيز (Focus Pin Concept)</h3>
-            <p>أيقونة ترمز إلى تحديد الهدف والانطلاق نحو فرص العمل والوصول.</p>
-            <div class="picker-btns">
-              <button type="button" class="pick-btn mahmoud" data-person="mahmoud">💙 خيار محمود</button>
-              <button type="button" class="pick-btn rouh" data-person="rouh">💖 خيار روح محمود</button>
-            </div>
-          </div>
-
-          <!-- Logo 4 -->
-          <div class="logo-card" data-logo-id="logo-search">
-            <div class="logo-img-box">
-              <img src="assets/nokta_search_dot_logo_1786437144642.png" alt="شعار عدسة البحث" />
-            </div>
-            <h3>4. شعار النقطة وعدسة الاكتشاف (Search Dot)</h3>
-            <p>رمز العدسة مع النقطة ليعبر عن اكتشاف الشركات للعميل فوراً.</p>
-            <div class="picker-btns">
-              <button type="button" class="pick-btn mahmoud" data-person="mahmoud">💙 خيار محمود</button>
-              <button type="button" class="pick-btn rouh" data-person="rouh">💖 خيار روح محمود</button>
-            </div>
-          </div>
-
-          <!-- Logo 5 -->
-          <div class="logo-card" data-logo-id="logo-sparkle">
-            <div class="logo-img-box">
-              <img src="assets/nokta_shining_sparkle_logo_1786437238073.png" alt="شعار النجمة المشعة" />
-            </div>
-            <h3>5. شعار الشرارة والتميز (Shining Sparkle)</h3>
-            <p>نقطة مشعة تعبر عن تحويل المهارات والخبرات لنقطة قوة جذابة.</p>
-            <div class="picker-btns">
-              <button type="button" class="pick-btn mahmoud" data-person="mahmoud">💙 خيار محمود</button>
-              <button type="button" class="pick-btn rouh" data-person="rouh">💖 خيار روح محمود</button>
-            </div>
-          </div>
-
-          <!-- Logo 6 -->
-          <div class="logo-card" data-logo-id="logo-arabic">
-            <div class="logo-img-box">
-              <img src="assets/nuqta_logo_arabic_1786435204739.png" alt="الشعار العربي الأصيل" />
-            </div>
-            <h3>6. الشعار العربي الصافي (Arabic Calligraphy)</h3>
-            <p>خط عربي ذكي وسماوي يناسب العناوين الرسمية للموقع والفييد.</p>
-            <div class="picker-btns">
-              <button type="button" class="pick-btn mahmoud" data-person="mahmoud">💙 خيار محمود</button>
-              <button type="button" class="pick-btn rouh" data-person="rouh">💖 خيار روح محمود</button>
-            </div>
-          </div>
-
-          <!-- Logo 7 -->
-          <div class="logo-card" data-logo-id="logo-english">
-            <div class="logo-img-box">
-              <img src="assets/nuqta_logo_english_1786435221153.png" alt="الشعار الإنجليزي" />
-            </div>
-            <h3>7. الشعار الإنجليزي العصري (English Branding)</h3>
-            <p>تخطيط إنجليزي بنقطة مضيئة يناسب استهداف الفريلانسرز والعملاء الدوليين.</p>
-            <div class="picker-btns">
-              <button type="button" class="pick-btn mahmoud" data-person="mahmoud">💙 خيار محمود</button>
-              <button type="button" class="pick-btn rouh" data-person="rouh">💖 خيار روح محمود</button>
-            </div>
-          </div>
-
-          <!-- Logo 8 -->
-          <div class="logo-card" data-logo-id="logo-dark">
-            <div class="logo-img-box">
-              <img src="assets/nuqta_logo_dark_1786434360372.png" alt="الشعار على الخلفية الكحلية" />
-            </div>
-            <h3>8. الشعار الفاخر الداكن (Dark Navy Premium)</h3>
-            <p>نموذج مخصص للتطبيقات والخلفيات الفاخرة المتباينة مع الأزرق السماوي.</p>
-            <div class="picker-btns">
-              <button type="button" class="pick-btn mahmoud" data-person="mahmoud">💙 خيار محمود</button>
-              <button type="button" class="pick-btn rouh" data-person="rouh">💖 خيار روح محمود</button>
-            </div>
-          </div>
-
-          <!-- Logo 9 -->
-          <div class="logo-card" data-logo-id="logo-main">
-            <div class="logo-img-box">
-              <img src="assets/nuqta_logo_main_1786434198859.png" alt="الشعار الرئيسي الشامل" />
-            </div>
-            <h3>9. الشعار المتكامل الرسمي (Main Branding System)</h3>
-            <p>النسخة الرسمية الكاملة المتضمنة عبارة: "من نقطة... تبدأ القصة".</p>
-            <div class="picker-btns">
-              <button type="button" class="pick-btn mahmoud" data-person="mahmoud">💙 خيار محمود</button>
-              <button type="button" class="pick-btn rouh" data-person="rouh">💖 خيار روح محمود</button>
-            </div>
+          <div class="reality-stats">
+            <div><strong>35.8%</strong><span>انتشار الإنترنت، بداية 2025</span></div>
+            <div><strong>3.40</strong><span>Mbps وسيط الإنترنت الثابت</span></div>
+            <div><strong>48h</strong><span>صلاحية مقترحة لعرض السعر</span></div>
+            <div><strong>&lt; 1 MB</strong><span>هدف أولي لوزن صفحة العميل</span></div>
           </div>
         </div>
+        <div class="guardrail"><strong>درجة الثقة: متوسطة ومنهجية.</strong><span>المؤشرات العامة موثقة، لكن لا توجد بيانات مبيعات خاصة بـ«نقطة». القرار النهائي يحتاج مقابلات وطلبات مدفوعة، لا إعجابات فقط.</span></div>
       </section>
 
-      <!-- TAB 2: LAUNCH PLAN TIMELINE DESIGN -->
-      <section id="timeline-tab" class="tab-section">
-        <h2 style="font-size: 1.5rem; color: #fff; margin-bottom: 0.5rem;">🚀 مخطط الخط الزمني لتأسيس مشروعنا (Timeline Launch Roadmap)</h2>
-        <p style="color: var(--text-muted); margin-bottom: 1.2rem;">خطة مرتبة زمنياً من البداية لخطوات العمل مع إمكانية تعليم الخطوات المكتملة:</p>
+      <section id="brands" class="tab-panel" role="tabpanel" hidden>
+        <div class="section-heading section-heading-top">
+          <div><span class="eyebrow">نظام علامي واحد</span><h1>هويتان منفصلتان في الرسالة، مرتبطتان في الذاكرة</h1></div>
+          <p>لا تنشئ حسابين من اليوم الأول. استخدم حساب «نقطة» واحداً، لونين للهايلايت، وصفحة خدمة مستقلة لكل خط.</p>
+        </div>
 
+        <div class="logo-picker">
+          <div class="logo-picker-head">
+            <div><span class="eyebrow">خطوة واحدة للاختيار</span><h2>اختاروا شعاراً واحداً لكل فكرة</h2></div>
+            <p>كل الشعارات الموجودة في المشروع مجمّعة هنا. اضغطوا على البطاقة لحفظ الاختيار؛ الضغط عليها مرة ثانية يلغي الاختيار.</p>
+          </div>
+
+          <div class="logo-choice-summary" aria-live="polite">
+            <div class="choice-summary pro-summary" data-logo-summary="pro">
+              <img data-summary-image src="assets/noqta-pro.svg" alt="" />
+              <div><span>اختيار نقطة مهني</span><strong data-summary-name>لم يتم الاختيار بعد</strong></div>
+            </div>
+            <div class="choice-summary biz-summary" data-logo-summary="biz">
+              <img data-summary-image src="assets/noqta-business.svg" alt="" />
+              <div><span>اختيار نقطة أعمال</span><strong data-summary-name>لم يتم الاختيار بعد</strong></div>
+            </div>
+          </div>
+
+          <section class="logo-group logo-group-pro" aria-labelledby="pro-logo-title">
+            <div class="logo-group-head"><div><span>A</span><h3 id="pro-logo-title">خيارات NOQTA Pro</h3></div><small>الحضور المهني، الملفات، الخبرة، والاكتشاف.</small></div>
+            <div class="logo-options">
+              <button type="button" class="logo-option recommended" data-logo-group="pro" data-logo-id="pro-modern" data-logo-name="مهني الحديث" data-logo-src="assets/noqta-pro.svg" aria-pressed="false">
+                <span class="option-badge">المقترح</span><span class="logo-option-media"><img src="assets/noqta-pro.svg" alt="شعار مهني الحديث" /></span><strong>مهني الحديث</strong><small>بطاقة خبرة + نقطة واضحة</small><span class="choose-label">اختيار الشعار</span>
+              </button>
+              <button type="button" class="logo-option" data-logo-group="pro" data-logo-id="pro-focus-badge" data-logo-name="شارة التركيز المهنية" data-logo-src="assets/logo-idea-a-pro.svg" aria-pressed="false">
+                <span class="logo-option-media"><img src="assets/logo-idea-a-pro.svg" alt="شارة التركيز المهنية" /></span><strong>شارة التركيز المهنية</strong><small>هدف وحضور رسمي</small><span class="choose-label">اختيار الشعار</span>
+              </button>
+              <button type="button" class="logo-option" data-logo-group="pro" data-logo-id="pro-focus-wide" data-logo-name="عدسة التركيز العريضة" data-logo-src="assets/01-noqta-focus.svg" aria-pressed="false">
+                <span class="logo-option-media dark"><img src="assets/01-noqta-focus.svg" alt="عدسة التركيز العريضة" /></span><strong>عدسة التركيز العريضة</strong><small>اكتشاف وإبراز الخبرة</small><span class="choose-label">اختيار الشعار</span>
+              </button>
+              <button type="button" class="logo-option" data-logo-group="pro" data-logo-id="pro-focus-pin" data-logo-name="دبوس التركيز" data-logo-src="assets/nokta_focus_pin_logo_1786437643299.png" aria-pressed="false">
+                <span class="logo-option-media dark"><img src="assets/nokta_focus_pin_logo_1786437643299.png" alt="دبوس التركيز" /></span><strong>دبوس التركيز</strong><small>تحديد نقطة الانطلاق</small><span class="choose-label">اختيار الشعار</span>
+              </button>
+              <button type="button" class="logo-option" data-logo-group="pro" data-logo-id="pro-search" data-logo-name="نقطة البحث" data-logo-src="assets/nokta_search_dot_logo_1786437144642.png" aria-pressed="false">
+                <span class="logo-option-media dark"><img src="assets/nokta_search_dot_logo_1786437144642.png" alt="نقطة البحث" /></span><strong>نقطة البحث</strong><small>العثور على الموهبة</small><span class="choose-label">اختيار الشعار</span>
+              </button>
+              <button type="button" class="logo-option" data-logo-group="pro" data-logo-id="pro-english" data-logo-name="NOQTA الإنجليزي" data-logo-src="assets/nuqta_logo_english_1786435221153.png" aria-pressed="false">
+                <span class="logo-option-media dark"><img src="assets/nuqta_logo_english_1786435221153.png" alt="شعار NOQTA الإنجليزي" /></span><strong>NOQTA الإنجليزي</strong><small>للعملاء الدوليين</small><span class="choose-label">اختيار الشعار</span>
+              </button>
+              <button type="button" class="logo-option" data-logo-group="pro" data-logo-id="pro-arabic" data-logo-name="نقطة العربي" data-logo-src="assets/nuqta_logo_arabic_1786435204739.png" aria-pressed="false">
+                <span class="logo-option-media dark"><img src="assets/nuqta_logo_arabic_1786435204739.png" alt="شعار نقطة العربي" /></span><strong>نقطة العربي</strong><small>هوية عربية مباشرة</small><span class="choose-label">اختيار الشعار</span>
+              </button>
+              <button type="button" class="logo-option" data-logo-group="pro" data-logo-id="pro-master" data-logo-name="العلامة الأم" data-logo-src="assets/noqta-master.svg" aria-pressed="false">
+                <span class="logo-option-media"><img src="assets/noqta-master.svg" alt="شعار نقطة الأم" /></span><strong>العلامة الأم</strong><small>حل موحّد بلا اسم فرعي</small><span class="choose-label">اختيار الشعار</span>
+              </button>
+            </div>
+          </section>
+
+          <section class="logo-group logo-group-biz" aria-labelledby="biz-logo-title">
+            <div class="logo-group-head"><div><span>B</span><h3 id="biz-logo-title">خيارات NOQTA Business</h3></div><small>الحضور المحلي، الواجهة الرقمية، الوصول، والتواصل.</small></div>
+            <div class="logo-options">
+              <button type="button" class="logo-option recommended" data-logo-group="biz" data-logo-id="biz-modern" data-logo-name="أعمال الحديث" data-logo-src="assets/noqta-business.svg" aria-pressed="false">
+                <span class="option-badge">المقترح</span><span class="logo-option-media"><img src="assets/noqta-business.svg" alt="شعار أعمال الحديث" /></span><strong>أعمال الحديث</strong><small>واجهة + موقع + تواصل</small><span class="choose-label">اختيار الشعار</span>
+              </button>
+              <button type="button" class="logo-option" data-logo-group="biz" data-logo-id="biz-store-badge" data-logo-name="شارة النشاط المحلي" data-logo-src="assets/logo-idea-b-biz.svg" aria-pressed="false">
+                <span class="logo-option-media"><img src="assets/logo-idea-b-biz.svg" alt="شارة النشاط المحلي" /></span><strong>شارة النشاط المحلي</strong><small>واجهة متجر واضحة</small><span class="choose-label">اختيار الشعار</span>
+              </button>
+              <button type="button" class="logo-option" data-logo-group="biz" data-logo-id="biz-minimal" data-logo-name="نقطة الطباعي" data-logo-src="assets/nokta_logo_v1_1786436392761.png" aria-pressed="false">
+                <span class="logo-option-media dark"><img src="assets/nokta_logo_v1_1786436392761.png" alt="شعار نقطة الطباعي" /></span><strong>نقطة الطباعي</strong><small>بسيط ومرن للقطاعات</small><span class="choose-label">اختيار الشعار</span>
+              </button>
+              <button type="button" class="logo-option" data-logo-group="biz" data-logo-id="biz-monogram" data-logo-name="مونوغرام نقطة" data-logo-src="assets/nokta_logo_v2_1786436688865.png" aria-pressed="false">
+                <span class="logo-option-media dark"><img src="assets/nokta_logo_v2_1786436688865.png" alt="مونوغرام نقطة" /></span><strong>مونوغرام نقطة</strong><small>أيقونة صغيرة للحسابات</small><span class="choose-label">اختيار الشعار</span>
+              </button>
+              <button type="button" class="logo-option" data-logo-group="biz" data-logo-id="biz-spark" data-logo-name="شرارة الأعمال" data-logo-src="assets/nokta_shining_sparkle_logo_1786437238073.png" aria-pressed="false">
+                <span class="logo-option-media dark"><img src="assets/nokta_shining_sparkle_logo_1786437238073.png" alt="شرارة الأعمال" /></span><strong>شرارة الأعمال</strong><small>ظهور وتميّز بصري</small><span class="choose-label">اختيار الشعار</span>
+              </button>
+              <button type="button" class="logo-option" data-logo-group="biz" data-logo-id="biz-dark" data-logo-name="نقطة الداكن" data-logo-src="assets/nuqta_logo_dark_1786434360372.png" aria-pressed="false">
+                <span class="logo-option-media dark"><img src="assets/nuqta_logo_dark_1786434360372.png" alt="شعار نقطة الداكن" /></span><strong>نقطة الداكن</strong><small>مظهر مؤسسي فاخر</small><span class="choose-label">اختيار الشعار</span>
+              </button>
+              <button type="button" class="logo-option" data-logo-group="biz" data-logo-id="biz-main" data-logo-name="نقطة المتكامل" data-logo-src="assets/nuqta_logo_main_1786434198859.png" aria-pressed="false">
+                <span class="logo-option-media dark"><img src="assets/nuqta_logo_main_1786434198859.png" alt="شعار نقطة المتكامل" /></span><strong>نقطة المتكامل</strong><small>اسم وشعار لفظي كامل</small><span class="choose-label">اختيار الشعار</span>
+              </button>
+              <button type="button" class="logo-option" data-logo-group="biz" data-logo-id="biz-master" data-logo-name="العلامة الأم" data-logo-src="assets/noqta-master.svg" aria-pressed="false">
+                <span class="logo-option-media"><img src="assets/noqta-master.svg" alt="شعار نقطة الأم" /></span><strong>العلامة الأم</strong><small>حل موحّد بلا اسم فرعي</small><span class="choose-label">اختيار الشعار</span>
+              </button>
+            </div>
+          </section>
+        </div>
+
+        <div class="brand-grid">
+          <article class="brand-card brand-pro">
+            <div class="brand-visual"><img src="assets/noqta-pro.svg" alt="شعار نقطة مهني — NOQTA Pro" /></div>
+            <div class="brand-body">
+              <span class="brand-label">الفكرة A — حضور مهني</span><h2>NOQTA Pro / نقطة مهني</h2>
+              <p class="brand-promise">نحوّل خبرتك إلى ملف ورابط يشرحان قيمتك بسرعة.</p>
+              <dl class="brand-definition"><div><dt>لمن؟</dt><dd>خريجون، مستقلون، مهندسون، مصممون، باحثون عن فرصة.</dd></div><div><dt>المشكلة</dt><dd>خبرة جيدة مع عرض مبعثر أو ملف لا يوضح النتيجة.</dd></div><div><dt>النتيجة</dt><dd>CV واضح + حضور مهني قابل للمشاركة + قصة متماسكة.</dd></div></dl>
+              <div class="slogan-box"><span>الشعار الأساسي</span><strong>خبرتك، بصيغة تُرى.</strong><small>بديل: «وضّح قيمتك. وابدأ من نقطة.»</small></div>
+              <div class="brand-benefits"><h3>فوائد نبيعها، لا مزايا تقنية</h3><ul><li>رابط واحد سهل الإرسال لمسؤول التوظيف أو العميل.</li><li>تقديم أقوى للمشاريع والخبرة، خصوصاً للمستقلين.</li><li>نسخة خفيفة للموبايل وملف PDF للطباعة والإرسال.</li></ul></div>
+              <div class="brand-boundary"><strong>لا نقول:</strong> «CV يضمن الوظيفة» أو «متوافق 100% مع كل ATS». نقول: منظم، قابل للقراءة، ومراجع بحسب الوظيفة المستهدفة.</div>
+            </div>
+          </article>
+          <article class="brand-card brand-biz">
+            <div class="brand-visual"><img src="assets/noqta-business.svg" alt="شعار نقطة أعمال — NOQTA Business" /></div>
+            <div class="brand-body">
+              <span class="brand-label">الفكرة B — حضور تجاري</span><h2>NOQTA Business / نقطة أعمال</h2>
+              <p class="brand-promise">نحوّل البحث عن مشروعك إلى تواصل أو زيارة أو طلب واضح.</p>
+              <dl class="brand-definition"><div><dt>لمن؟</dt><dd>مطاعم صغيرة، عيادات، صالونات، متاجر، ومقدمو خدمات محليون.</dd></div><div><dt>المشكلة</dt><dd>المعلومات موزعة بين المنشورات والرسائل، والزبون لا يعرف الخطوة التالية.</dd></div><div><dt>النتيجة</dt><dd>صفحة واحدة فيها الخدمة، الأسعار عند الحاجة، الموقع، الدوام، وCTA مباشر.</dd></div></dl>
+              <div class="slogan-box"><span>الشعار الأساسي</span><strong>من البحث… إلى تواصل مباشر.</strong><small>بديل: «كل ما يحتاجه زبونك، في نقطة.»</small></div>
+              <div class="brand-benefits"><h3>فوائد نبيعها، لا مزايا تقنية</h3><ul><li>معلومة موحدة بدلاً من شرح الدوام والموقع والخدمة كل مرة.</li><li>زر واتساب/اتصال/حجز يقلل خطوات التردد.</li><li>تعديل أخف من إعادة طباعة قائمة أو كتالوج كامل.</li></ul></div>
+              <div class="brand-boundary"><strong>لا نقول:</strong> «الموقع يزيد المبيعات حتماً». نقول: يقلل الاحتكاك، ينظم المعلومات، ويمكن قياس النقرات والاستفسارات.</div>
+            </div>
+          </article>
+        </div>
+        <div class="logo-system-note"><div><span class="eyebrow">منطق الشعار</span><h2>رمز واحد، معنى يتبدل مع المنتج</h2></div><p><strong>مهني:</strong> بطاقة ملف + نقطة واضحة + حركة للأمام. <strong>أعمال:</strong> واجهة رقمية + موقع + طريق مباشر. لا يوجد رمز مطعم، لذلك الهوية قابلة للتوسع.</p></div>
+      </section>
+
+      <section id="compare" class="tab-panel" role="tabpanel" hidden>
+        <div class="section-heading section-heading-top">
+          <div><span class="eyebrow">قرار قائم على سلوك حقيقي</span><h1>لا تختاروا الفكرة الأجمل؛ اختاروا التي يشتريها السوق</h1></div>
+          <p>هذه الدرجات نقطة بداية نوعية. آلة الاختبار أسفلها تستبدل الافتراض بأرقامكم الفعلية خلال 30 يوماً.</p>
+        </div>
+        <div class="comparison-wrap"><table class="comparison-table"><thead><tr><th>المعيار</th><th class="pro-text">نقطة مهني</th><th class="biz-text">نقطة أعمال</th><th>المعنى العملي</th></tr></thead><tbody>
+          <tr><th>سهولة البدء</th><td><span class="score score-5">5/5</span></td><td><span class="score score-3">3/5</span></td><td>نماذج مهني أسرع وأقل اعتماداً على بيانات العميل.</td></tr>
+          <tr><th>سهولة الوصول للعميل</th><td><span class="score score-4">4/5</span></td><td><span class="score score-2">2/5</span></td><td>التاجر يحتاج ثقة وديمو واتصالاً مباشراً غالباً.</td></tr>
+          <tr><th>قيمة الصفقة</th><td><span class="score score-2">2/5</span></td><td><span class="score score-4">4/5</span></td><td>الأعمال تستفيد من إضافات وصيانة وتحديثات.</td></tr>
+          <tr><th>تكرار الإيراد</th><td><span class="score score-2">2/5</span></td><td><span class="score score-4">4/5</span></td><td>تحديث CV موسمي؛ تحديث أعمال وتشغيلها أكثر تكراراً.</td></tr>
+          <tr><th>سهولة الدعم</th><td><span class="score score-4">4/5</span></td><td><span class="score score-2">2/5</span></td><td>كلما اقتربت الصفحة من الطلبات اليومية زاد الدعم.</td></tr>
+          <tr><th>التميز أمام البدائل</th><td><span class="score score-2">2/5</span></td><td><span class="score score-3">3/5</span></td><td>Canva وAI يضغطان مهني؛ حلول QR المحلية موجودة أيضاً.</td></tr>
+        </tbody></table></div>
+        <div class="test-intro"><div><span class="eyebrow">اختبار الشهر الأول</span><h2>أدخلوا النتائج الفعلية هنا</h2></div><p>استخدموا نفس تعريف «تواصل»، «مهتم»، و«مدفوع» للفكرتين. الإيراد بأي وحدة مرجعية ثابتة تختارونها.</p></div>
+        <div class="experiment-grid">
+          <form class="experiment-card experiment-pro" data-experiment="pro">
+            <div class="experiment-title"><span>A</span><div><strong>NOQTA Pro</strong><small>هدف: 30 تواصلاً مستهدفاً</small></div></div>
+            <div class="field-grid"><label>تم التواصل معهم<input type="number" min="0" step="1" name="contacts" value="0" inputmode="numeric" /></label><label>أبدوا اهتماماً<input type="number" min="0" step="1" name="interested" value="0" inputmode="numeric" /></label><label>عملاء دفعوا<input type="number" min="0" step="1" name="paid" value="0" inputmode="numeric" /></label><label>إجمالي الإيراد<input type="number" min="0" step="0.01" name="revenue" value="0" inputmode="decimal" /></label><label>ساعات التنفيذ<input type="number" min="0" step="0.5" name="hours" value="0" inputmode="decimal" /></label></div>
+            <div class="experiment-results" aria-live="polite"><div><span>تحويل مدفوع</span><strong data-result="conversion">—</strong></div><div><span>إيراد / ساعة</span><strong data-result="hourly">—</strong></div><div><span>الإشارة</span><strong data-result="signal" class="signal neutral">بانتظار بيانات</strong></div></div>
+          </form>
+          <form class="experiment-card experiment-biz" data-experiment="biz">
+            <div class="experiment-title"><span>B</span><div><strong>NOQTA Business</strong><small>هدف: 20 نشاطاً في قطاع واحد</small></div></div>
+            <div class="field-grid"><label>تم التواصل معهم<input type="number" min="0" step="1" name="contacts" value="0" inputmode="numeric" /></label><label>قبلوا ديمو/اجتماعاً<input type="number" min="0" step="1" name="interested" value="0" inputmode="numeric" /></label><label>عملاء دفعوا<input type="number" min="0" step="1" name="paid" value="0" inputmode="numeric" /></label><label>إجمالي الإيراد<input type="number" min="0" step="0.01" name="revenue" value="0" inputmode="decimal" /></label><label>ساعات التنفيذ والدعم<input type="number" min="0" step="0.5" name="hours" value="0" inputmode="decimal" /></label></div>
+            <div class="experiment-results" aria-live="polite"><div><span>تحويل مدفوع</span><strong data-result="conversion">—</strong></div><div><span>إيراد / ساعة</span><strong data-result="hourly">—</strong></div><div><span>الإشارة</span><strong data-result="signal" class="signal neutral">بانتظار بيانات</strong></div></div>
+          </form>
+        </div>
+        <div class="decision-rule"><span>قاعدة القرار بعد 30 يوماً</span><p>وسّع الخط الذي يحقق <strong>3 عملاء مدفوعين على الأقل</strong> مع إيراد/ساعة أفضل وطلب إحالة أو تحديث. إذا لم يصل أي خط إلى ذلك، عدّل العرض والجمهور قبل تعديل الشعار.</p></div>
+        <div class="vote-panel"><div><span class="eyebrow">رأي الفريق</span><h2>صوّتوا الآن، وقارنوا رأيكم بالبيانات لاحقاً</h2></div><div class="vote-controls"><div class="person-vote" data-person="mahmoud"><strong>محمود</strong><button type="button" data-choice="pro">مهني</button><button type="button" data-choice="biz">أعمال</button></div><div class="person-vote" data-person="rouh"><strong>روح محمود</strong><button type="button" data-choice="pro">مهني</button><button type="button" data-choice="biz">أعمال</button></div></div></div>
+      </section>
+
+      <section id="offers" class="tab-panel" role="tabpanel" hidden>
+        <div class="section-heading section-heading-top"><div><span class="eyebrow">المنتج قبل السعر</span><h1>باقات مفهومة، وحدود تمنع استنزاف الوقت</h1></div><p>لا تعرض سعراً وحيداً لكل عميل. اعرض نطاقاً بعد استلام المحتوى، وثبّت العملة المرجعية وصلاحية العرض وما يشمله التعديل.</p></div>
+        <div class="offer-lane offer-lane-pro"><div class="offer-lane-head"><div><span>A</span><h2>باقات نقطة مهني</h2></div><p>الـCV ليس المنتج النهائي؛ وضوح القيمة هو المنتج.</p></div><div class="package-grid">
+          <article class="package-card"><span class="package-tag">بداية</span><h3>CV واضح</h3><p>لمن يملك خبرة ومحتوى جاهزاً ويحتاج إعادة بناء العرض.</p><ul><li>لغة واحدة</li><li>نسخة PDF قابلة للقراءة</li><li>مراجعة محتوى أساسية</li><li>جولة تعديل واحدة</li></ul><small>لا يشمل: كتابة الخبرة من الصفر أو التقديم للوظائف.</small></article>
+          <article class="package-card featured"><span class="package-tag">الأفضل للاختبار</span><h3>حضور مهني</h3><p>للخريج أو المستقل الذي يحتاج ملفاً ورابطاً متناسقين.</p><ul><li>CV مخصص للهدف</li><li>صفحة Portfolio خفيفة</li><li>صياغة نبذة LinkedIn</li><li>جولتا تعديل</li></ul><small>الدومين والاستضافة يوضحان كبند مستقل.</small></article>
+          <article class="package-card"><span class="package-tag">متقدم</span><h3>هوية خبير</h3><p>للمستقل أو الاستشاري الذي يبيع خبرته مباشرة.</p><ul><li>عربي + إنجليزي</li><li>دراستا حالة</li><li>Portfolio مخصص</li><li>تسليم ودليل تحديث</li></ul><small>جلسة استخراج المحتوى تسعّر بحسب المدة.</small></article>
+        </div></div>
+        <div class="offer-lane offer-lane-biz"><div class="offer-lane-head"><div><span>B</span><h2>باقات نقطة أعمال</h2></div><p>ابدأ بمعلومة أو إجراء واضح، لا بنظام إدارة كامل.</p></div><div class="package-grid">
+          <article class="package-card"><span class="package-tag">بداية</span><h3>صفحة تواصل</h3><p>لخدمة محلية تحتاج مكاناً واحداً للمعلومات.</p><ul><li>الخدمات والدوام</li><li>الخريطة والاتصال</li><li>زر واتساب مباشر</li><li>لغة واحدة</li></ul><small>الصور والكتابة من العميل أو تسعّر كإضافة.</small></article>
+          <article class="package-card featured"><span class="package-tag">الأفضل للاختبار</span><h3>صفحة تحويل</h3><p>لمطعم، عيادة، صالون، أو متجر يريد إجراءً قابلاً للقياس.</p><ul><li>كتالوج/منيو/خدمات</li><li>QR ورابط قصير</li><li>CTA مخصص</li><li>إحصاء نقرات أساسي</li></ul><small>لا تعد بزيادة المبيعات قبل وجود خط أساس وقياس.</small></article>
+          <article class="package-card"><span class="package-tag">رعاية</span><h3>تشغيل وتحديث</h3><p>إضافة شهرية اختيارية بعد إطلاق الصفحة.</p><ul><li>عدد تعديلات متفق عليه</li><li>مراقبة الرابط</li><li>نسخة احتياطية</li><li>تقرير مبسط</li></ul><small>ضع زمناً للاستجابة وحداً للتعديلات الطارئة.</small></article>
+        </div></div>
+        <div class="commercial-rules"><h2>قواعد تجارية واقعية</h2><div class="rules-grid"><div><strong>50% مقدماً</strong><span>والباقي قبل تسليم النسخة النهائية أو نقل الموقع.</span></div><div><strong>عرض صالح 48 ساعة</strong><span>بمرجع سعر متفق عليه وذكر المقابل المحلي عند الدفع.</span></div><div><strong>جولات محددة</strong><span>أي جولة إضافية أو تغيير نطاق له تكلفة وموعد جديد.</span></div><div><strong>المحتوى شرط للبدء</strong><span>الوقت يبدأ بعد استلام النصوص والصور والدفعة.</span></div></div></div>
+      </section>
+
+      <section id="roadmap" class="tab-panel" role="tabpanel" hidden>
+        <div class="section-heading section-heading-top"><div><span class="eyebrow">أفضل خط زمني</span><h1>90 يوماً من الفرضية إلى قرار التوسع</h1></div><p>علّموا البنود المكتملة. التقدم محفوظ في المتصفح، ويمكن الرجوع إليه في الاجتماع التالي.</p></div>
+        <div class="roadmap-summary"><div><strong data-progress-number>0%</strong><span>مكتمل من الخطة</span></div><div class="progress-track"><span data-progress-bar></span></div></div>
         <div class="timeline">
-          <!-- Timeline Item 1 -->
-          <div class="timeline-item">
-            <div class="timeline-icon">1</div>
-            <div class="timeline-content">
-              <h3>📱 المرحلة الأولى: إنشاء الحسابات والربط المباشر</h3>
-              <p>تأسيس البنية التحتية الرقمية لمشروع نقطة:</p>
-              <ul class="timeline-checklist">
-                <li><label><input type="checkbox" class="timeline-check" /> إنشاء حساب إنستغرام باسم <code>@nokta.sy</code> أو <code>@nokta.portfolio</code> (Business Account)</label></li>
-                <li><label><input type="checkbox" class="timeline-check" /> تفعيل رقم واتساب الأعمال الرسمي وإعداد الرسالة الترحيبية التلقائية</label></li>
-                <li><label><input type="checkbox" class="timeline-check" /> رفع وتطبيق الشعار المعتمد كصورة بروفايل رسمية</label></li>
-              </ul>
-            </div>
-          </div>
-
-          <!-- Timeline Item 2 -->
-          <div class="timeline-item">
-            <div class="timeline-icon">2</div>
-            <div class="timeline-content">
-              <h3>📌 المرحلة الثانية: تهيئة البروفايل والبايو والهايلايتس</h3>
-              <p>ترتيب الحساب ليمنح انطباعاً احترافياً وثقة فورية:</p>
-              <ul class="timeline-checklist">
-                <li><label><input type="checkbox" class="timeline-check" /> صياغة البايو: <code>نصمّم CV + Portfolio يخلّيك تنشاف ✦ | بسعر مناسب وتوافق تام مع الموبايل</code></label></li>
-                <li><label><input type="checkbox" class="timeline-check" /> وضع رابط الواتساب المباشر في البايو للتواصل الفوري</label></li>
-                <li><label><input type="checkbox" class="timeline-check" /> تجهيز 4 أغطية هايلايت (1. أعمالنا 2. الباقات 3. قبل/بعد 4. الأسئلة الشائعة)</label></li>
-              </ul>
-            </div>
-          </div>
-
-          <!-- Timeline Item 3 -->
-          <div class="timeline-item">
-            <div class="timeline-icon">3</div>
-            <div class="timeline-content">
-              <h3>💻 المرحلة الثالثة: إعداد المعرض ونماذج الـ CVs والمواقع</h3>
-              <p>بناء النماذج الجاهزة التي سنعرضها للعملاء في الستوري والبوستات:</p>
-              <ul class="timeline-checklist">
-                <li><label><input type="checkbox" class="timeline-check" /> تصميم نموذج سيرة ذاتية حديثة متوافق مع نظام فلاتر الـ ATS</label></li>
-                <li><label><input type="checkbox" class="timeline-check" /> تطوير موقع تفاعلي شخصي سريع ومناسب للموبايل (Personal Portfolio)</label></li>
-                <li><label><input type="checkbox" class="timeline-check" /> تصميم نموذج صفحة تعريفية لشركة صغيرة (Company Profile Page)</label></li>
-              </ul>
-            </div>
-          </div>
-
-          <!-- Timeline Item 4 -->
-          <div class="timeline-item">
-            <div class="timeline-icon">4</div>
-            <div class="timeline-content">
-              <h3>📣 المرحلة الرابعة: إطلاق المحتوى والمنشورات الجاهزة</h3>
-              <p>البدء بالخطة التسويقية وتوليد الرسائل والمتابعين:</p>
-              <ul class="timeline-checklist">
-                <li><label><input type="checkbox" class="timeline-check" /> نشر بوست التعريف "حضورك يبدأ من نقطة"</label></li>
-                <li><label><input type="checkbox" class="timeline-check" /> نشر بوست "7 أخطاء تمنع قراءة الـ CV الخاص بك"</label></li>
-                <li><label><input type="checkbox" class="timeline-check" /> نشر فيديو Reels قصير يبين سرعة التحول بين النسخة القديمة والجديدة</label></li>
-              </ul>
-            </div>
-          </div>
-
-          <!-- Timeline Item 5 -->
-          <div class="timeline-item">
-            <div class="timeline-icon">5</div>
-            <div class="timeline-content">
-              <h3>💬 المرحلة الخامسة: استقبال الرسائل وتحويلها لطلبات مدفوعة</h3>
-              <p>إدارة طلبات العملاء وتسليم الملفات بأسلوب راقٍ وسريع:</p>
-              <ul class="timeline-checklist">
-                <li><label><input type="checkbox" class="timeline-check" /> استخدام نصوص الرد الجاهزة على الاستفسارات والتسعير في الخاص</label></li>
-                <li><label><input type="checkbox" class="timeline-check" /> تنفيذ الطلب والتسليم خلال 24 - 48 ساعة بصيغة PDF ورابط متاح</label></li>
-                <li><label><input type="checkbox" class="timeline-check" /> طلب تقييم العميل ونشر النتيجة في الهايلايت بإذنه</label></li>
-              </ul>
-            </div>
-          </div>
+          <article class="timeline-item"><div class="timeline-marker"><span>01</span><small>أسبوع 1</small></div><div class="timeline-content"><span class="phase-tag">الأساس</span><h2>ثبّتوا العرض والحدود</h2><p>الهدف: أن يفهم شخص غريب الخدمة خلال 10 ثوانٍ.</p><ul class="checklist"><li><label><input type="checkbox" data-step="1" /> اعتماد اسم NOQTA وخطي Pro وBusiness.</label></li><li><label><input type="checkbox" data-step="2" /> كتابة صفحة بيع مستقلة لكل خط وCTA واحد لها.</label></li><li><label><input type="checkbox" data-step="3" /> إعداد واتساب أعمال: ترحيب، أسئلة تأهيل، ونموذج طلب.</label></li><li><label><input type="checkbox" data-step="4" /> كتابة سياسة دفع، تعديل، إلغاء، وتسليم من صفحة واحدة.</label></li></ul></div></article>
+          <article class="timeline-item"><div class="timeline-marker"><span>02</span><small>أسبوع 2</small></div><div class="timeline-content"><span class="phase-tag">الدليل</span><h2>ابنوا ما يمكن بيعه بصرياً</h2><p>لا تسوقوا قبل وجود أمثلة تشبه العميل الحقيقي.</p><ul class="checklist"><li><label><input type="checkbox" data-step="5" /> 3 نماذج مهني: خريج، مستقل، وخبير.</label></li><li><label><input type="checkbox" data-step="6" /> اختيار قطاع أعمال واحد وبناء ديموين له.</label></li><li><label><input type="checkbox" data-step="7" /> تصوير قبل/بعد وفيديو فتح الصفحة على هاتف متوسط.</label></li><li><label><input type="checkbox" data-step="8" /> اختبار وزن الصفحة، الروابط، العربية، والخريطة على اتصال ضعيف.</label></li></ul></div></article>
+          <article class="timeline-item"><div class="timeline-marker"><span>03</span><small>أسبوع 3–4</small></div><div class="timeline-content"><span class="phase-tag">البيع الأول</span><h2>اجمعوا أدلة دفع لا إشارات إعجاب</h2><p>استخدموا عرض Pilot محدوداً، لا عملاً مجانياً كاملاً.</p><ul class="checklist"><li><label><input type="checkbox" data-step="9" /> 30 تواصلاً مستهدفاً لمهني مع مراجعة قصيرة واضحة.</label></li><li><label><input type="checkbox" data-step="10" /> 20 نشاطاً تجارياً من قطاع واحد مع ديمو شخصي.</label></li><li><label><input type="checkbox" data-step="11" /> تسجيل السبب عند الرفض: سعر، ثقة، توقيت، أو عدم حاجة.</label></li><li><label><input type="checkbox" data-step="12" /> إدخال النتائج في آلة المقارنة وإجراء مراجعة يوم 30.</label></li></ul></div></article>
+          <article class="timeline-item"><div class="timeline-marker"><span>04</span><small>شهر 2</small></div><div class="timeline-content"><span class="phase-tag">التكرار</span><h2>حوّلوا أفضل خدمة إلى عملية</h2><p>الهدف: تقليل وقت التنفيذ مع الحفاظ على نتيجة واضحة.</p><ul class="checklist"><li><label><input type="checkbox" data-step="13" /> توحيد الاستبيان وقائمة المواد المطلوبة.</label></li><li><label><input type="checkbox" data-step="14" /> بناء قالبين قابلين للتخصيص دون أن يبدوا متطابقين.</label></li><li><label><input type="checkbox" data-step="15" /> جمع 3 شهادات موثقة بإذن أصحابها.</label></li><li><label><input type="checkbox" data-step="16" /> قياس ساعات العمل والتعديل وصافي العائد لكل طلب.</label></li></ul></div></article>
+          <article class="timeline-item"><div class="timeline-marker"><span>05</span><small>شهر 3</small></div><div class="timeline-content"><span class="phase-tag">قرار التوسع</span><h2>ضاعفوا الرابح وأوقفوا التشتيت</h2><p>الهدف: قناة بيع واحدة قابلة للتكرار وعرض واضح.</p><ul class="checklist"><li><label><input type="checkbox" data-step="17" /> اختيار الخط الأساسي وفق التحويل والعائد/ساعة والتكرار.</label></li><li><label><input type="checkbox" data-step="18" /> تخصيص 80% من المحتوى والمبيعات للخط الرابح.</label></li><li><label><input type="checkbox" data-step="19" /> إطلاق إحالة: مكافأة محددة بعد عميل مدفوع، لا خصم مفتوح.</label></li><li><label><input type="checkbox" data-step="20" /> دراسة حساب منفصل فقط إذا صار لكل خط جمهور ومحتوى منتظمان.</label></li></ul></div></article>
         </div>
       </section>
 
-      <!-- TAB 3: SOCIAL MEDIA PLAN & SERVICES -->
-      <section id="social-tab" class="tab-section">
-        <h2 style="font-size: 1.5rem; color: #fff; margin-bottom: 0.5rem;">📱 خطة السوشيال ميديا والباقات المقترحة</h2>
-        <p style="color: var(--text-muted); margin-bottom: 1.2rem;">ملخص الخدمات التي سيقدمها مشروع نقطة بأسعار مرنة ومناسبة في سوريا:</p>
-
-        <!-- Services -->
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.2rem; margin-bottom: 2rem;">
-          <div style="background: var(--bg-card); padding: 1.4rem; border-radius: var(--radius); border-top: 4px solid var(--primary);">
-            <h3 style="color: #fff; margin-bottom: 0.4rem;">📄 1. سيرة ذاتية حديثة (CV)</h3>
-            <p style="font-size: 0.9rem; color: var(--text-muted);">تنسيق احترافي، متوافق مع ATS، يفتح بسهولة على الموبايل والكمبيوتر بصيغة PDF.</p>
-          </div>
-
-          <div style="background: var(--bg-card); padding: 1.4rem; border-radius: var(--radius); border-top: 4px solid var(--accent);">
-            <h3 style="color: #fff; margin-bottom: 0.4rem;">💼 2. موقع بورتفوليو تفاعلي</h3>
-            <p style="font-size: 0.9rem; color: var(--text-muted);">رابط موقع شخصي سريع يفتح بدون بطء يعرض الأعمال والمشاريع وربط مباشر بالواتساب.</p>
-          </div>
-
-          <div style="background: var(--bg-card); padding: 1.4rem; border-radius: var(--radius); border-top: 4px solid var(--pink-accent);">
-            <h3 style="color: #fff; margin-bottom: 0.4rem;">🏢 3. بروفايل شركة (Company Profile)</h3>
-            <p style="font-size: 0.9rem; color: var(--text-muted);">صفحة تعريفية عصرية وموحدة للشركات والمشاريع الصغيرة والمؤسسات الناشئة.</p>
-          </div>
+      <section id="content" class="tab-panel" role="tabpanel" hidden>
+        <div class="section-heading section-heading-top"><div><span class="eyebrow">خطة ميديا قابلة للتنفيذ</span><h1>اثنا عشر منشوراً، وقناة بيع لا تعتمد على الخوارزمية</h1></div><p>النشر يبني الثقة، لكن التواصل المخصص والإحالات يصنعان المبيعات الأولى. لا تشتروا إعلانات قبل معرفة أي عرض يحوّل.</p></div>
+        <div class="media-grid">
+          <article class="media-card pro-media"><div class="media-card-head"><span>A</span><h2>Media plan — مهني</h2></div><ul><li><strong>الأولوية:</strong> Instagram للعرض، LinkedIn للمصداقية، مجموعات الوظائف والجامعات للوصول.</li><li><strong>الإيقاع:</strong> 3 منشورات + 5–7 Stories أسبوعياً.</li><li><strong>المزيج:</strong> 40% تعليم، 35% دليل، 15% عملية، 10% عرض.</li><li><strong>البيع:</strong> 8 مراجعات قصيرة مستهدفة يومياً، مع طلب إذن قبل إرسال ملاحظات مفصلة.</li></ul></article>
+          <article class="media-card biz-media"><div class="media-card-head"><span>B</span><h2>Media plan — أعمال</h2></div><ul><li><strong>الأولوية:</strong> Facebook/Instagram كدليل، WhatsApp واتصال/زيارة للبيع، Google Maps للبحث عن العملاء.</li><li><strong>الإيقاع:</strong> منشوران + Demo واحد + Stories ميدانية أسبوعياً.</li><li><strong>المزيج:</strong> 30% مشكلة، 40% ديمو، 20% نتيجة، 10% عرض.</li><li><strong>البيع:</strong> 5 رسائل شخصية يومياً لقطاع واحد، لا رسالة جماعية منسوخة.</li></ul></article>
         </div>
-
-        <!-- Weekly Rhythm -->
-        <div style="background: var(--bg-card); padding: 1.5rem; border-radius: var(--radius); border: 1px solid var(--border-color);">
-          <h3 style="color: var(--primary-light); margin-bottom: 0.8rem;">📅 جدول النشر الأسبوعي</h3>
-          <ul style="list-style: none; line-height: 2;">
-            <li style="color: #E2E8F0;">• <strong>السبت:</strong> منشور شريحة تعليمي (Carousel) — أخطاء أو نصائح سريعة للـ CV</li>
-            <li style="color: #E2E8F0;">• <strong>الاثنين:</strong> استعراض عمل حقيقي (قبل / بعد) أو جولة داخل موقع بورتفوليو</li>
-            <li style="color: #E2E8F0;">• <strong>الأربعاء:</strong> فيديو قصير (Reel 10-15 ثانية) يعرض سرعة النتيجة وتجاوب الموبايل</li>
-            <li style="color: #E2E8F0;">• <strong>الجمعة:</strong> سؤال تفاعلي أو استطلاع ستوري لبدء محادثات في الخاص</li>
-          </ul>
-        </div>
-      </section>
-
-      <!-- TAB 4: COMPLETE READY POSTS BANK -->
-      <section id="posts-tab" class="tab-section">
-        <h2 style="font-size: 1.5rem; color: #fff; margin-bottom: 0.5rem;">📝 بنك المحتوى والمنشورات الجاهزة الكامل</h2>
-        <p style="color: var(--text-muted); margin-bottom: 1.2rem;">مكتبة المنشورات والسكريبتات الجاهزة للنشر فوراً، يمكنكما اختيار التصنيف والنسخ بضغطة زر:</p>
-
-        <!-- Filter Bar -->
-        <div class="posts-filter-bar">
-          <button type="button" class="filter-btn active" data-filter="all">الكل</button>
-          <button type="button" class="filter-btn" data-filter="carousel">شحائح Carousel</button>
-          <button type="button" class="filter-btn" data-filter="reel">فيديوهات Reel</button>
-          <button type="button" class="filter-btn" data-filter="compare">مقارنات وقبل/بعد</button>
-          <button type="button" class="filter-btn" data-filter="errors">أخطاء ونصائح</button>
-        </div>
-
+        <div class="calendar-card"><div class="calendar-head"><div><span class="eyebrow">أول 4 أسابيع</span><h2>إيقاع النشر والبيع</h2></div><span>أفضل وقت؟ اختبروه على جمهوركم؛ لا توجد ساعة سحرية.</span></div><div class="calendar-wrap"><table class="calendar-table"><thead><tr><th>الأسبوع</th><th>السبت</th><th>الاثنين</th><th>الأربعاء</th><th>نشاط البيع</th></tr></thead><tbody><tr><th>1 — تعريف</th><td>لماذا نقطة؟</td><td>قبل/بعد مهني</td><td>ديمو صفحة نشاط</td><td>10 مقابلات قصيرة لكل جمهور</td></tr><tr><th>2 — مشكلة</th><td>خطأ في CV</td><td>معلومة ضائعة = زبون متردد</td><td>ريل سرعة الموبايل</td><td>50 تواصلاً مستهدفاً موزعاً</td></tr><tr><th>3 — دليل</th><td>دراسة حالة مهني</td><td>جولة داخل صفحة أعمال</td><td>كيف نعمل؟</td><td>إرسال عروض Pilot للمهتمين</td></tr><tr><th>4 — تحويل</th><td>لمن كل باقة؟</td><td>اعتراض السعر</td><td>نتيجة/شهادة</td><td>متابعة + طلب إحالة + مراجعة الأرقام</td></tr></tbody></table></div></div>
+        <div class="posts-toolbar"><div><span class="eyebrow">بنك منشورات جاهز</span><h2>اختر الخط وانسخ النص</h2></div><div class="filter-group" aria-label="تصفية المنشورات"><button class="filter-btn active" type="button" data-filter="all">الكل</button><button class="filter-btn" type="button" data-filter="pro">مهني</button><button class="filter-btn" type="button" data-filter="biz">أعمال</button></div></div>
         <div class="posts-grid">
-          <!-- Post 1 -->
-          <div class="post-card" data-category="carousel">
-            <div>
-              <div class="post-header">
-                <span class="post-tag">Carousel — منشور التعريف 🚀</span>
-              </div>
-              <div class="post-body">🔵 من نقطة... تبدأ القصة
+          <article class="post-card" data-segment="pro"><span class="post-type">مهني · تعريف</span><h3>خبرتك موجودة. هل تظهر؟</h3><div class="post-copy">خبرتك ليست مجموعة تواريخ فقط. هي مشكلات حللتها، نتائج صنعتها، وطريقة تفكير تميزك. في «نقطة مهني» نحول هذه الخبرة إلى CV ورابط واضحين وسهلين للمشاركة.
 
-مرحباً! نحن «نقطة» ✨
-نساعد الأفراد والشركات في إبراز خبراتهم بمواقع وسير ذاتية حديثة وسريعة.
+أرسل كلمة «مراجعة» مع مجالك، ونخبرك بأول 3 نقاط تحتاج ترتيباً.</div><button class="copy-btn" type="button">نسخ النص</button></article>
+          <article class="post-card" data-segment="pro"><span class="post-type">مهني · Carousel</span><h3>5 أسطر تضعف الـCV</h3><div class="post-copy">1. مسؤول عن مهام مختلفة.
+2. أعمل تحت الضغط.
+3. أجيد العمل ضمن فريق.
+4. ساهمت في عدة مشاريع.
+5. مهارات تواصل ممتازة.
 
-🎯 شو بنقدّم؟
-✅ بورتفوليو تفاعلي احترافي
-✅ سيرة ذاتية حديثة (CV)
-✅ Company Profile للشركات
-✅ أداء صاروخي وبأسعار مناسبة
+المشكلة؟ عبارات عامة بلا سياق أو نتيجة. بدّل «ماذا كنت تفعل؟» بـ«ماذا تغيّر بسبب عملك؟». احفظ المنشور قبل تعديل ملفك.</div><button class="copy-btn" type="button">نسخ النص</button></article>
+          <article class="post-card" data-segment="pro"><span class="post-type">مهني · دليل</span><h3>قبل/بعد بدون مبالغة</h3><div class="post-copy">لم نضف خبرة غير موجودة. رتبنا الأولويات، اختصرنا التكرار، وحولنا وصف المهام إلى أثر مفهوم.
 
-📩 راسلنا بالخاص ونبدأ معك فوراً!
+النتيجة: ملف أسهل في المسح السريع، ورابط يعرض المشاريع التي لا تكفيها صفحة واحدة.
 
-#نقطة #بورتفوليو #سيرة_ذاتية #CV #تصميم #سوريا</div>
-            </div>
-            <button type="button" class="copy-btn">📋 نسخ النص الكامل</button>
-          </div>
+تريد مراجعة مشابهة؟ أرسل مجالك والفرصة التي تستهدفها.</div><button class="copy-btn" type="button">نسخ النص</button></article>
+          <article class="post-card" data-segment="pro"><span class="post-type">مهني · Reel</span><h3>CV أم Portfolio؟</h3><div class="post-copy">سكريبت 15 ثانية:
+«الـCV يختصر مسارك. الـPortfolio يثبت عملك. إذا كنت مصمماً، مطوراً، مهندساً، كاتباً أو مستقلاً، فغالباً تحتاج الاثنين—لكن كل واحد له وظيفة مختلفة.»
 
-          <!-- Post 2 -->
-          <div class="post-card" data-category="carousel">
-            <div>
-              <div class="post-header">
-                <span class="post-tag">Carousel — لماذا البورتفوليو؟ 💡</span>
-              </div>
-              <div class="post-body">الـ CV يقول ماذا فعلت... والـ Portfolio يثبت ذلك! 💡
+CTA على الشاشة: اكتب مجالك لنخبرك ما الذي تحتاجه فعلاً.</div><button class="copy-btn" type="button">نسخ النص</button></article>
+          <article class="post-card" data-segment="pro"><span class="post-type">مهني · اعتراض</span><h3>لماذا لا أستخدم قالباً جاهزاً؟</h3><div class="post-copy">القالب يحل الشكل. لكنه لا يقرر ما الذي يجب حذفه، أي نتيجة تستحق الصدارة، وكيف يتغير الملف حسب الفرصة.
 
-السيرة الذاتية تلخص مسارك المهني، لكن موقع البورتفوليو يجعل العميل أو شركة التوظيف ترى النتيجة بنفسها خلال ثوانٍ.
+إذا كان محتواك جاهزاً، قد يكفيك قالب. إذا كانت قصتك مبعثرة، تحتاج ترتيباً قبل التصميم. ونحن نخبرك بصراحة أي حالة لديك.</div><button class="copy-btn" type="button">نسخ النص</button></article>
+          <article class="post-card" data-segment="pro"><span class="post-type">مهني · عرض</span><h3>باقة حضور مهني</h3><div class="post-copy">CV واضح + صفحة Portfolio خفيفة + نبذة LinkedIn متناسقة.
 
-مشروعك الجامعي المميز، تصاميمك، أو طريقة تفكيرك كلها أدلة أقوى من مجرد قائمة مهارات على الورق.
+مناسبة للخريج أو المستقل الذي يريد رابطاً واحداً يقدم خبرته ومشاريعه بوضوح. العدد التجريبي هذا الشهر محدود حتى نحافظ على وقت المراجعة.
 
-ما مجالك الحالي؟ اكتب لنا بالخاص ونخبرك ما الذي يجب أن تعرضه تحديداً. 📩
+أرسل «حضور» لتحصل على المتطلبات والنطاق.</div><button class="copy-btn" type="button">نسخ النص</button></article>
+          <article class="post-card" data-segment="biz"><span class="post-type">أعمال · تعريف</span><h3>هل يعرف زبونك الخطوة التالية؟</h3><div class="post-copy">قد يجد الزبون حسابك، ثم يبحث عن الموقع والدوام والسعر وطريقة التواصل بين عشرات المنشورات. كل خطوة إضافية فرصة ليتراجع.
 
-#نقطة #تطوير_مهني #عمل_حر #فريلانسر #بورتفوليو</div>
-            </div>
-            <button type="button" class="copy-btn">📋 نسخ النص الكامل</button>
-          </div>
+«نقطة أعمال» تجمع المعلومات والإجراء التالي في صفحة واحدة خفيفة: اتصال، واتساب، زيارة أو حجز.</div><button class="copy-btn" type="button">نسخ النص</button></article>
+          <article class="post-card" data-segment="biz"><span class="post-type">أعمال · مطاعم</span><h3>غيّرت السعر؟ لا تعِد الطباعة</h3><div class="post-copy">المنيو الرقمي لا يحل كل مشاكل المطعم، لكنه يحل مشكلة واضحة: تحديث الأصناف والأسعار دون إعادة طباعة كل نسخة.
 
-          <!-- Post 3 -->
-          <div class="post-card" data-category="compare">
-            <div>
-              <div class="post-header">
-                <span class="post-tag">قبل / بعد ⚡</span>
-              </div>
-              <div class="post-body">نفس الخبرة... انطباع مختلف تماماً! 😍
+رابط وQR خفيفان، يفتحان من الهاتف ويقودان إلى واتساب أو اتصال حسب طريقة عملك. أرسل صورة منيوك لنريك ديمو مصغراً.</div><button class="copy-btn" type="button">نسخ النص</button></article>
+          <article class="post-card" data-segment="biz"><span class="post-type">أعمال · عيادات</span><h3>قبل أن يسأل المريض</h3><div class="post-copy">أين العيادة؟ ما أوقات الدوام؟ كيف أحجز؟ هل توجد تعليمات قبل الزيارة؟
 
-في النسخة القديمة كانت المعلومات موجودة لكن الترتيب غير واضح. أعدنا تنسيقها، أبرزنا النتائج، وجعلنا الوصول لرابط الأعمال بلمسة واحدة من الموبايل.
+صفحة العيادة الجيدة تجيب عن الأسئلة المتكررة وتترك قرار التشخيص للطبيب. لا وعود علاجية ولا ازدحام معلومات—فقط طريق أوضح للحجز والتواصل.</div><button class="copy-btn" type="button">نسخ النص</button></article>
+          <article class="post-card" data-segment="biz"><span class="post-type">أعمال · دليل</span><h3>ديمو خلال 10 ثوانٍ</h3><div class="post-copy">في 10 ثوانٍ فقط: اسم النشاط، ما يقدمه، أين يوجد، هل هو مفتوح، وكيف أتواصل.
 
-النتيجة ليست مجرد "زينة"، بل قراءة أسرع وانطباع لا يُنسى عند صاحب العمل! 🚀
+هذا هو الاختبار الحقيقي لصفحة النشاط—not عدد الحركات أو المؤثرات. شاهدوا الديمو على اتصال هاتف عادي، ثم أخبرونا: هل وجدتم ما تحتاجونه فوراً؟</div><button class="copy-btn" type="button">نسخ النص</button></article>
+          <article class="post-card" data-segment="biz"><span class="post-type">أعمال · اعتراض</span><h3>عندي Instagram، لماذا صفحة؟</h3><div class="post-copy">Instagram ممتاز للاكتشاف والثقة. لكنه ليس دائماً أفضل مكان للمعلومة الثابتة أو الإجراء السريع.
 
-هل تريد مراجعة ملفك الحالي؟ أرسل لنا كلمة «مراجعة» بالخاص. 📩</div>
-            </div>
-            <button type="button" class="copy-btn">📋 نسخ النص الكامل</button>
-          </div>
+الصفحة لا تستبدل حسابك؛ تربطه بمكان واحد منظم فيه الموقع والدوام والخدمات والاتصال. إذا كان حسابك ينجز ذلك بوضوح، لن نبيعك ما لا تحتاجه.</div><button class="copy-btn" type="button">نسخ النص</button></article>
+          <article class="post-card" data-segment="biz"><span class="post-type">أعمال · عرض</span><h3>برنامج أول 3 نشاطات</h3><div class="post-copy">نبحث عن 3 نشاطات من قطاع واحد لبناء صفحات Pilot خفيفة وقابلة للقياس.
 
-          <!-- Post 4 -->
-          <div class="post-card" data-category="errors">
-            <div>
-              <div class="post-header">
-                <span class="post-tag">أخطاء ونصائح ❌</span>
-              </div>
-              <div class="post-body">7 أخطاء تضعف الـ CV خلال ثوانٍ! 😱
+يشمل البرنامج: ترتيب المعلومات، صفحة موبايل، CTA واحد، وقياس أساسي للنقرات. في المقابل نحتاج ملاحظات صريحة وإذن عرض النتيجة.
 
-1️⃣ عنوان وظيفي عام وغير محدد
-2️⃣ فقرات طويلة جداً بدون نقاط
-3️⃣ نتائج بلا أرقام أو دليل ملموس
-4️⃣ مهارات غير مرتبطة بالفرصة
-5️⃣ أخطاء إملائية ولغوية
-6️⃣ روابط أعمال لا تعمل
-7️⃣ تصميم مزدحم بالألوان والزخارف
-
-احفظ القائمة وراجع سيرتك الذاتية قبل التقديم القادم! 🔖</div>
-            </div>
-            <button type="button" class="copy-btn">📋 نسخ النص الكامل</button>
-          </div>
-
-          <!-- Post 5 (Reel Script 1) -->
-          <div class="post-card reel" data-category="reel">
-            <div>
-              <div class="post-header">
-                <span class="post-tag">فيديو Reel قصير (8 ثوانٍ) 🎬</span>
-              </div>
-              <div class="post-body">سيناريو فيديو ريلز 1:
-• 0–1ث: النتيجة النهائية لموقع بورتفوليو على هاتف.
-نص على الشاشة: «نفس الخبرة… حضور أقوى!»
-
-• 1–4ث: لقطة النسخة القديمة الورقية مع تمويه البيانات.
-• 4–8ث: انتقالات سريعة: ترتيب، ألوان عصرية، رابط مباشر.
-
-Voiceover: «ما غيّرنا خبرته؛ غيّرنا كيف تظهر.»
-CTA: «أرسل كلمة نقطة للمراجعة.»</div>
-            </div>
-            <button type="button" class="copy-btn">📋 نسخ السكريبت</button>
-          </div>
-
-          <!-- Post 6 (Reel Script 2) -->
-          <div class="post-card reel" data-category="reel">
-            <div>
-              <div class="post-header">
-                <span class="post-tag">فيديو Reel قصير (15 ثانية) 🎬</span>
-              </div>
-              <div class="post-body">سيناريو فيديو ريلز 2 (CV vs Portfolio):
-• شاشة منقسمة (Split Screen)
-• الصوت: «الـCV يلخص مسارك في ورقة. الـPortfolio يثبت مهارتك بمشاريع حقيقية. إذا كان عملك قابلاً للعرض، فأنت غالباً تحتاج الاثنين معاً!»
-
-CTA: «اكتب مجالك في التعليقات وسنجيبك بالخيار الأنسب لك فوراً!»</div>
-            </div>
-            <button type="button" class="copy-btn">📋 نسخ السكريبت</button>
-          </div>
+أرسل «Pilot» مع نوع نشاطك ومدينتك.</div><button class="copy-btn" type="button">نسخ النص</button></article>
         </div>
+        <div class="content-rules"><h2>قبل النشر</h2><ul><li>لا تستخدم إحصائية بلا مصدر أو نتيجة عميل بلا إذن.</li><li>لا تقل «الأفضل في سوريا» أو «يضمن المبيعات/الوظيفة».</li><li>كل منشور له CTA واحد فقط.</li><li>قِس الرسائل المؤهلة والطلبات المدفوعة، لا الوصول وحده.</li></ul></div>
       </section>
     </main>
-
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
     <script src="app.js"></script>
   </body>
 </html>

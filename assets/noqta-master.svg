@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 64" role="img" aria-labelledby="title desc">
+  <title id="title">NOQTA — نقطة</title>
+  <desc id="desc">The NOQTA master brand mark.</desc>
+  <defs>
+    <linearGradient id="masterGradient" x1="2" y1="2" x2="60" y2="62" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7C5CFF"/>
+      <stop offset=".52" stop-color="#31C7F5"/>
+      <stop offset="1" stop-color="#FF795F"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="19" fill="#111629"/>
+  <path d="M19 22c0-4 3-7 7-7h13c4 0 7 3 7 7v20c0 4-3 7-7 7H26c-4 0-7-3-7-7V22Z" fill="none" stroke="url(#masterGradient)" stroke-width="5"/>
+  <circle cx="47" cy="45" r="8" fill="#FF795F" stroke="#111629" stroke-width="4"/>
+  <text x="76" y="29" font-family="Cairo, Tajawal, Arial, sans-serif" font-size="24" font-weight="800" fill="#111629">نقطة</text>
+  <text x="77" y="51" font-family="Arial, sans-serif" font-size="16" font-weight="800" letter-spacing="2" fill="#6D5DFB">NOQTA</text>
+</svg>
